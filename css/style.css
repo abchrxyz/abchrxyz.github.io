@@ -5,6 +5,17 @@
   gap: 2rem;
   padding: 20px;
   max-width: 1000px;
+  margin: 3rem 0 0 0;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 #text-content {
@@ -54,12 +65,11 @@ p {
 
 .section-header {
   display: inline-block;
-  border-bottom: 3px solid var(--important-color);
-  padding-bottom: 4px;
   font-family: "Montserrat", sans-serif;
   color: var(--text-color);
-  margin: 2rem 0 1rem 0;
   font-size: 1.5rem;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .resume-header {
@@ -189,6 +199,10 @@ ul {
 .button-link:hover {
   background-color: white;
   color: var(--important-color);
+}
+
+.project-description {
+  margin-top: 2rem;
 }
 
 .project-grid {
@@ -358,6 +372,15 @@ ul {
   color: var(--text-color);
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+}
+
+.nav-middle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2rem;
+  border-bottom: 3px solid var(--important-color);
 }
 
 .nav-right {
