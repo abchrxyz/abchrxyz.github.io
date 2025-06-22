@@ -105,6 +105,7 @@ ul {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
+  margin-top: 3rem;
 }
 
 .social-grid {
@@ -202,7 +203,7 @@ ul {
 }
 
 .project-description {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .project-grid {
@@ -213,6 +214,7 @@ ul {
   margin: 0 auto;
   justify-content: center;
   padding: 20px;
+  margin-top: 3rem;
 }
 
 .project-card img {
@@ -439,6 +441,7 @@ ul {
     grid-template-columns: 1fr;
     max-width: 100%;
     padding: 1rem;
+    margin-top: 3rem;
   }
 
   .associations-grid {
