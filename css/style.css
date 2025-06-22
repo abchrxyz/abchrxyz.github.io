@@ -72,6 +72,10 @@ p {
   margin: 0 auto;
 }
 
+.section-header-mobile {
+  display: none;
+}
+
 .resume-header {
   text-align: center;
   margin: 0 auto;
@@ -115,6 +119,7 @@ ul {
   max-width: 600px;
   margin: 0 auto;
   padding: 1.5rem;
+  margin-top: 3 rem;
 }
 
 .social-item {
@@ -414,11 +419,34 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+  .project-description {
+    margin-top: 0;
+  }
+  .resume-container {
+    margin-top: 0;
+  }
+
   .centered-p {
     text-align: left;
   }
 
+  .section-header-mobile {
+    display: inline-block;
+    border-bottom: 3px solid var(--important-color);
+    padding-bottom: 4px;
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-color);
+    margin: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+  }
+
   .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .bottom-container {
     flex-direction: column;
     align-items: center;
   }
@@ -441,7 +469,7 @@ ul {
     grid-template-columns: 1fr;
     max-width: 100%;
     padding: 1rem;
-    margin-top: 3rem;
+    margin-top: 0;
   }
 
   .associations-grid {
@@ -462,6 +490,7 @@ ul {
     max-width: 100%;
     padding: 10px;
     gap: 2rem;
+    margin-top: 0;
   }
 
   .project-container {
