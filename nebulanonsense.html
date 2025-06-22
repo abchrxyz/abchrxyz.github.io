@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nebula Nonsense - Cameron Romero</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <nav class="top-nav">
+      <div class="nav-left">
+        <a href="index.html">Cameron Huang Romero</a>
+      </div>
+      <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contacts</a>
+        <a href="associations.html">Associations</a>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="right-text">
+        <a href="index.html">Cameron Huang Romero</a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="associations.html">Associations</a></li>
+      </ul>
+    </nav>
+    <h1 class="section-header">NEBULA NONSENSE</h1>
+    <p class="centered-description">
+      2D Bullet Hell Game <br />
+      Made for 2023 Secret Santa Game Jam <br />
+      Made using Unity and C#
+    </p>
+    <div class="icon-grid">
+      <a
+        href="https://github.com/Ryan-Brosius/Secret-Santa-2023-Game-Jam"
+        target="_blank"
+        class="icon-link"
+      >
+        <img src="assets/images/icons/githublogo.png" alt="" class="icon" />
+        <span><strong>GitHub</strong></span>
+      </a>
+      <a
+        href="https://tacocat122.itch.io/nebula-nonsense"
+        target="_blank"
+        class="icon-link"
+      >
+        <img src="assets/images/icons/gameicon.png" alt="" class="icon" />
+        <span><strong>Itch.io</strong></span>
+      </a>
+    </div>
+    <div class="project-container">
+      <p class="centered-p">
+        This is a game that I worked on with my friend, Ryan Brosius, for the
+        2023 Secret Santa Game Jam. For the Secret Santa Game Jam, teams are
+        given prompts by another team, and must create a game based on this
+        prompt to give to that team. Our prompt was for a space game, which is
+        why our game has a space theme. We had around a month to work on this
+        game jam, with a couple of weeks being during school and finals week. Me
+        and Ryan both worked on the programming and art, where I created the
+        ship sprite and heart sprite.
+        <br />
+        <br />
+        The game has 3 different bosses, each with different attack patterns and
+        strategies. There is a score system that saves and displays the best
+        achieved score. There is a demo of this game below, and you can also
+        click the Itch.Io link above to play the game yourself.
+      </p>
+      <h2 class="project-section-header">DEMO</h2>
+
+      <video class="media-border" width="800" controls>
+        <source
+          src="assets/images/projects/nebulanonsense/nebula-demo.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+
+      <h2 class="project-section-header">BOSSES</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="assets/images/projects/nebulanonsense/CatBoss.gif"
+              alt="GIF 1"
+              class="media-border"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/projects/nebulanonsense/BunnyBoss.gif"
+              alt="GIF 3"
+              class="media-border"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/images/projects/nebulanonsense/PlanetBoss.gif"
+              alt="GIF 3"
+              class="media-border"
+            />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <script src="js/burger-menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper-init.js"></script>
+  </body>
+</html>
